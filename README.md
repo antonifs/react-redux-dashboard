@@ -1,6 +1,6 @@
 # Starter Kit for build React with Redux and redux-thunk
 
-## Having Issues? Try these things first:
+## How to run this?
 1. Clone the repo `git clone git@github.com:antonifs/react-redux-boilerplate.git`
 2. Run `npm install` - If you forget to do this, you'll see this: `babel-node: command not found`.
 3. Run `npm start` to start the App
