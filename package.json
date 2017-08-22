@@ -1,7 +1,7 @@
 {
-  "name": "pluralsight-redux-starter",
+  "name": "redux-starter",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux Pluralsight course by Cory House",
+  "description": "Starter kit for React and Redux",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
@@ -11,17 +11,22 @@
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cory House",
+  "author": "Antoni F. Setiawan",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
+    "chart.js": "^1.1.1",
     "jquery": "2.2.3",
-    "react": "15.0.2",
-    "react-dom": "15.0.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-chartjs": "^0.8.0",
+    "react-chartjs-2": "^2.1.0",
+    "react-dom": "^15.6.1",
     "react-redux": "4.4.5",
     "react-router": "2.4.0",
     "react-router-redux": "4.0.4",
+    "react-sparklines": "^1.6.0",
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
     "toastr": "2.1.2"
